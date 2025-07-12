@@ -48,11 +48,16 @@ function updateAvatar() {
 function startMission() {
     const career = document.getElementById("career").value;
 
-    // Verifica si la carrera seleccionada es "Biología y Química"
+    // Si seleccionan "Biología y Química" se abre el enlace de Rosalind Franklin
     if (career === "arquitecta") {
         window.open("https://es.educaplay.com/recursos-educativos/8780748-rosalin_franklin.html", "_blank");
-    } else {
-        // Si no se selecciona Biología y Química, puede abrir otro enlace o mostrar un mensaje.
-        alert("Selecciona Biología y Química para comenzar la misión sobre Rosalind Franklin.");
+    } 
+    // Si seleccionan "Física y Química" se abre el enlace de Marie Curie
+    else if (career === "ingeniera") {
+        window.open("https://www.eslgamesplus.com/marie-curie-facts-science-game/", "_blank");
+    } 
+    else {
+        // Si no se selecciona ninguna carrera válida
+        alert("Por favor selecciona una carrera para comenzar la misión.");
     }
 }
