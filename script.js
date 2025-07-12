@@ -22,19 +22,19 @@ function updateAvatar() {
                 avatarDescription.textContent = "¡Tu avatar de Física - Química está listo!";
                 break;
             case "arquitecta":
-                avatarImage.src = "arquitecta-avatar.png";  // Imagen de arquitecta
-                avatarDescription.textContent = "¡Tu avatar de Arquitecta está listo!";
+                avatarImage.src = "Biologia-Quimica.png";  // Imagen de arquitecta
+                avatarDescription.textContent = "¡Tu avatar de Biología y Química está listo!";
                 break;
             case "cientifica":
-                avatarImage.src = "cientifica-avatar.png";  // Imagen de científica
+                avatarImage.src = "Antropologia-zoología.png";  // Imagen de científica
                 avatarDescription.textContent = "¡Tu avatar de Científica está listo!";
                 break;
             case "tecnica":
-                avatarImage.src = "tecnica-avatar.png";  // Imagen de técnica
+                avatarImage.src = "Medicina-Astronautica.png";  // Imagen de técnica
                 avatarDescription.textContent = "¡Tu avatar de Técnica está listo!";
                 break;
             case "matematica":
-                avatarImage.src = "matematica-avatar.png";  // Imagen de matemática
+                avatarImage.src = "Matematicas-Computacion.png";  // Imagen de matemática
                 avatarDescription.textContent = "¡Tu avatar de Matemática está listo!";
                 break;
             default:
