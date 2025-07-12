@@ -46,7 +46,13 @@ function updateAvatar() {
 }
 
 function startMission() {
-    // Redirige a la URL proporcionada
-    window.open("https://www.eslgamesplus.com/marie-curie-facts-science-game/", "_blank");
-}
+    const career = document.getElementById("career").value;
 
+    // Verifica si la carrera seleccionada es "Biología y Química"
+    if (career === "arquitecta") {
+        window.open("https://es.educaplay.com/recursos-educativos/8780748-rosalin_franklin.html", "_blank");
+    } else {
+        // Si no se selecciona Biología y Química, puede abrir otro enlace o mostrar un mensaje.
+        alert("Selecciona Biología y Química para comenzar la misión sobre Rosalind Franklin.");
+    }
+}
