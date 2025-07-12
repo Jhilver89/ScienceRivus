@@ -18,8 +18,8 @@ function updateAvatar() {
         startMissionBtn.disabled = false;   // Habilitar el botón de misión
         switch (career) {
             case "ingeniera":
-                avatarImage.src = "ingeniera-avatar.png";  // Ruta de la imagen del avatar de ingeniera
-                avatarDescription.textContent = "¡Tu avatar de Ingeniera está listo!";
+                avatarImage.src = "fisica-quimica.png";  // Ruta de la imagen del avatar de ingeniera
+                avatarDescription.textContent = "¡Tu avatar de Física - Química está listo!";
                 break;
             case "arquitecta":
                 avatarImage.src = "arquitecta-avatar.png";  // Imagen de arquitecta
