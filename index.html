@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Carrera y Avatar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>¡Elige tu Avatar y Carrera!</h1>
+
+        <!-- Menú de Selección de Carrera -->
+        <div id="career-selection">
+            <label for="career">Elige tu carrera:</label>
+            <select id="career" name="career">
+                <option value="">Selecciona una carrera</option> <!-- Opción por defecto -->
+                <option value="ingeniera">Ingeniera</option>
+                <option value="arquitecta">Arquitecta</option>
+                <option value="cientifica">Científica</option>
+                <option value="tecnica">Técnica</option>
+                <option value="matematica">Matemática</option>
+            </select>
+            <button id="start-game-btn" disabled>Comenzar Misión</button>
+        </div>
+
+        <!-- Avatar -->
+        <div id="avatar">
+            <img src="" alt="Avatar" id="avatar-image" style="display: none;"> <!-- Avatar inicialmente no visible -->
+            <p id="avatar-description">¡Selecciona una carrera para ver tu avatar!</p>
+        </div>
+
+        <div id="mission">
+            <button id="start-mission-btn" disabled>Iniciar Misión</button>
+            <p id="mission-feedback"></p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</b
